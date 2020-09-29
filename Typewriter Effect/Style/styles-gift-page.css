@@ -1,0 +1,39 @@
+body {
+  background-color: #c4fff9;
+}
+
+.rusadart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gift {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  width: 400px;
+  height: 600px;
+  border-style: solid;
+  border-color: #3dccc7;
+}
+
+a {
+  color: #007ea7;
+}
+/*# sourceMappingURL=styles-gift-page.css.map */
