@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> xyz Airlines </title>
+    </head>
+        <style>
+            body {
+                background-image: url("airport-2373727_1920.jpg");
+                margin: 0;
+                padding: 0;
+                background-blend-mode: lighten;
+                background-position: center center;
+                background-size: contain;
+                }
+            #typed {
+                margin: 0%;
+                padding: 0%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #fff;
+                font-size: 4.5rem;
+                 }
+         </style>
+                <body>
+                    <script src="Script/typed.js"></script>
+                    <span id="typed"></span>
+                    <script>
+                     var options = {
+                         strings: ["We fly to Mumbai", "We fly to Delhi", "We fly to Bangalore", "We fly to Hyderabad", "We fly to Kolkata", "We fly to Jaipur", "We fly everywhere"],
+                         typeSpeed: 40,
+                         backSpeed: 40,
+                         // loop = true
+                         }
+                         var typed = new Typed("#typed", options);
+                    </script>
+                </body>
